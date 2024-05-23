@@ -21,7 +21,7 @@ async function predictClassification(model, image) {
       suggestion = "Segera konsultasi dengan dokter terdekat.";
     }
 
-    if (result === "Squamous cell carcinoma") {
+    if (result === "Non-cancer") {
       suggestion = "Kondisi anda aman.";
     }
 
