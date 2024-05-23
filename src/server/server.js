@@ -8,8 +8,7 @@ const InputError = require("../exceptions/InputError");
 (async () => {
   const server = Hapi.server({
     port: 3000,
-    host: "localhost",
-    // host: "0.0.0.0",
+    host: "0.0.0.0",
     routes: {
       cors: {
         origin: ["*"],
@@ -37,7 +36,7 @@ const InputError = require("../exceptions/InputError");
     if (response.isBoom) {
       const newResponse = h.response({
         status: "fail",
-        message: response,
+        message: response.message,
       });
       newResponse.code(response.output.statusCode);
       return newResponse;
