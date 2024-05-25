@@ -1,5 +1,5 @@
-Cancer Identifier Web Service
-(Its using model tha not for real health usage)
+# Cancer Identifier Web Service
+(Its using model that not for real health usage)
 
 It's web service that i made for cleared Dicoding submission in course "Learn Machine Learning Applications with Google Cloud", i'm contribute as back-end developer who deploy tensorflow model on GCP and make API for front-end usage.
 
